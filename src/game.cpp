@@ -1,4 +1,5 @@
 #include "globals.h"
+#include "reputation.h"
 #include "location.h"
 #include "shop.h"
 #include "save.h"
@@ -6,7 +7,6 @@
 #include "growth.h"
 #include "randomEvents.h"
 #include "game.h"
-#include "reputation.h"
 #include <cstdlib>
 #include <iostream>
 using namespace std;

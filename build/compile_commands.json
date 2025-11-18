@@ -1,0 +1,55 @@
+[
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/game.cpp.o -c /project/workspace/src/game.cpp",
+  "file": "/project/workspace/src/game.cpp"
+},
+
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/growth.cpp.o -c /project/workspace/src/growth.cpp",
+  "file": "/project/workspace/src/growth.cpp"
+},
+
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/housing.cpp.o -c /project/workspace/src/housing.cpp",
+  "file": "/project/workspace/src/housing.cpp"
+},
+
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/input.cpp.o -c /project/workspace/src/input.cpp",
+  "file": "/project/workspace/src/input.cpp"
+},
+
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/main.cpp.o -c /project/workspace/src/main.cpp",
+  "file": "/project/workspace/src/main.cpp"
+},
+
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/randomEvents.cpp.o -c /project/workspace/src/randomEvents.cpp",
+  "file": "/project/workspace/src/randomEvents.cpp"
+},
+
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/save.cpp.o -c /project/workspace/src/save.cpp",
+  "file": "/project/workspace/src/save.cpp"
+},
+
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/shop.cpp.o -c /project/workspace/src/shop.cpp",
+  "file": "/project/workspace/src/shop.cpp"
+},
+
+{
+  "directory": "/project/workspace/build",
+  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/location.cpp.o -c /project/workspace/src/location.cpp",
+  "file": "/project/workspace/src/location.cpp"
+}
+]

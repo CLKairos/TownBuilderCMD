@@ -1,4 +1,5 @@
 #include "globals.h"
+#include "reputation.h"
 
 void calcReputation(){
     reputationLevel = 1;

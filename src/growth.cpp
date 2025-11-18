@@ -3,6 +3,7 @@
 #include "globals.h"
 #include "growth.h"
 #include "housing.h"
+
 using namespace std;
 
 //population growth logic, based on your education, military, and transportation levels
@@ -21,7 +22,7 @@ void applyGrowth(float capacityDebuff)
     float totalMult = 1.0f + eduMult + milMult + transMult + techMult + houMult;
 
     int baseGrowth = (rand() % housingAmount) + 1;
-    float randomFactor = static_cast<float>(rand()) / RAND_MAX * 1.0f;
+    float randomFactor = rand() / RAND_MAX * 1.0f;
     float capacityFactor = 1.0f - (float(populationAmount) / (housingAmount * 2));
     capacityFactor = max(0.0f, capacityFactor);
 
