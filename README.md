@@ -6,40 +6,65 @@ This game features events that can occur before a turn such as, rival towns star
 
 ## BUYABLE UPGRADES
 Housing - $100
+
 Military - $500
+
 Transportation - $150
+
 Education - $200
+
 Technology - $300
+
 
 ## EVENTS
 Discovering Ancient Ruins
-Exposed Corruption Scandal
-Forming Alliances
-Refugee Crisiss'
-Industrial Revolution
-Founding Universities
-Plauge of Locusts
-Gold Rush
-Infastructure Collapse
-Meteor Strike
-Festivals
-Floods
-Tourism Booms
-Technological Breakthroughs
-Bandit Raids
-Floods
-Scholor Migration
-Trade Caravans
-Earthquakes
-Oil Discovery
-New Inventions
-Fossil Discovery
-Sinkholes
-Forest Fires
-Rival Town Wars
-And Deadly Diseases
-    
-Town Locations (I.E. Russia, United States, France, England, ect.) ADDED 1.4.0
-Town locations affecting war likeliness ADDED 1.4.0
 
-Bank/ Other Town Loans
+Exposed Corruption Scandal
+
+Forming Alliances
+
+Refugee Crisiss'
+
+Industrial Revolution
+
+Founding Universities
+
+Plauge of Locusts
+
+Gold Rush
+
+Infastructure Collapse
+
+Meteor Strike
+
+Festivals
+
+Floods
+
+Tourism Booms
+
+Technological Breakthroughs
+
+Bandit Raids
+
+Floods
+
+Scholor Migration
+
+Trade Caravans
+
+Earthquakes
+
+Oil Discovery
+
+New Inventions
+
+Fossil Discovery
+
+Sinkholes
+
+Forest Fires
+
+Rival Town Wars
+
+And Deadly Diseases
