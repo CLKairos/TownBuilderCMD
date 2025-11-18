@@ -1,6 +1,6 @@
 CMakeFiles/TownBuilder.dir/game.cpp.obj: \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\game.cpp \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\globals.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\game.cpp \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\globals.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -106,13 +106,8 @@ CMakeFiles/TownBuilder.dir/game.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\shop.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\save.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\input.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\growth.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\randomEvents.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\game.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\location.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\reputation.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\location.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
@@ -157,4 +152,10 @@ CMakeFiles/TownBuilder.dir/game.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
- C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\shop.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\save.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\input.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\growth.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\randomEvents.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\game.h

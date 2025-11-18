@@ -1,1 +1,4 @@
-{}
+{
+    "cmake.sourceDirectory": "C:/Users/Kairos/Documents/TownBuilderCMD/src",
+    "C_Cpp.errorSquiggles": "disabled"
+}

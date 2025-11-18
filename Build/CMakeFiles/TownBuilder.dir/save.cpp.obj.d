@@ -1,6 +1,6 @@
 CMakeFiles/TownBuilder.dir/save.cpp.obj: \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\save.cpp \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\save.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\save.cpp \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\save.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -158,6 +158,6 @@ CMakeFiles/TownBuilder.dir/save.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\globals.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\housing.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\location.h
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\globals.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\housing.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\location.h

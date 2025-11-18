@@ -1,6 +1,6 @@
 CMakeFiles/TownBuilder.dir/housing.cpp.obj: \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\housing.cpp \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\globals.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\housing.cpp \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\globals.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -106,4 +106,4 @@ CMakeFiles/TownBuilder.dir/housing.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
- C:\Users\Kairos\Documents\Nextcloud\TownBuilder\housing.h
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\housing.h

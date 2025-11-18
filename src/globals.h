@@ -2,11 +2,11 @@
 #define GLOBALS_H_INCLUDED
 #include <string>
 
-inline __int64_t moneyAmount;
-inline __int64_t populationAmount;
-inline int reputationLevel;
+inline __int64 moneyAmount;
+inline __int64 populationAmount;
+inline float reputationLevel;
 inline int housingLevel;
-inline __int64_t housingAmount;
+inline __int64 housingAmount;
 inline int militaryLevel;
 inline int educationLevel;
 inline int transportationLevel;

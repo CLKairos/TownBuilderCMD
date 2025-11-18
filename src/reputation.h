@@ -1,6 +1,8 @@
-#ifndef REPUTATION_H
-#define REPUTATION_H
+#ifndef REPUTATION_H_INCLUDED
+#define REPUTATION_H_INCLUDED
 
-void calcReputation();
+inline void calcReputation() {
+	// TODO: Implement reputation calculation logic
+}
 
-#endif // REPUTATION_H
+#endif // REPUTATION_H_INCLUDED

@@ -29,8 +29,8 @@ void gameLoop()
     while (running)
     {
         applyGrowth(capacityDebuff);
-        calcReputation();
         moneyAmount += (rand() % populationAmount * 2) + 1;
+        calcReputation();
 
         system("PAUSE"); 
         system("cls"); 
@@ -43,6 +43,8 @@ void gameLoop()
              << "Military: " << militaryLevel << "\n"
              << "Transportation: " << transportationLevel << "\n"
              << "Technology: " << technologyLevel << "\n"
+             << "Reputation: " << reputationLevel << "\n"
+             << "Locaiton: "<< setLocation << "\n\n"
              << "Options: shop (sh), wait (w), save (sa), exit (e)\n> ";
 
         cin >> input;
