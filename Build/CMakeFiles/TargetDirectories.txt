@@ -1,0 +1,3 @@
+C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build/CMakeFiles/TownBuilder.dir
+C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build/CMakeFiles/edit_cache.dir
+C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build/CMakeFiles/rebuild_cache.dir
