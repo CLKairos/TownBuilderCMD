@@ -1,55 +1,56 @@
 [
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/game.cpp.o -c /project/workspace/src/game.cpp",
-  "file": "/project/workspace/src/game.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\game.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\game.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/game.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/game.cpp.obj"
 },
-
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/growth.cpp.o -c /project/workspace/src/growth.cpp",
-  "file": "/project/workspace/src/growth.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\growth.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\growth.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/growth.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/growth.cpp.obj"
 },
-
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/housing.cpp.o -c /project/workspace/src/housing.cpp",
-  "file": "/project/workspace/src/housing.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\housing.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\housing.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/housing.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/housing.cpp.obj"
 },
-
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/input.cpp.o -c /project/workspace/src/input.cpp",
-  "file": "/project/workspace/src/input.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\input.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\input.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/input.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/input.cpp.obj"
 },
-
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/main.cpp.o -c /project/workspace/src/main.cpp",
-  "file": "/project/workspace/src/main.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\main.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\main.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/main.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/main.cpp.obj"
 },
-
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/randomEvents.cpp.o -c /project/workspace/src/randomEvents.cpp",
-  "file": "/project/workspace/src/randomEvents.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\randomEvents.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\randomEvents.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/randomEvents.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj"
 },
-
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/save.cpp.o -c /project/workspace/src/save.cpp",
-  "file": "/project/workspace/src/save.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\save.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\save.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/save.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/save.cpp.obj"
 },
-
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/shop.cpp.o -c /project/workspace/src/shop.cpp",
-  "file": "/project/workspace/src/shop.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\shop.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\shop.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/shop.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/shop.cpp.obj"
 },
-
 {
-  "directory": "/project/workspace/build",
-  "command": "/usr/bin/clang++    -g   -std=c++2a -o CMakeFiles/TownBuilder.dir/location.cpp.o -c /project/workspace/src/location.cpp",
-  "file": "/project/workspace/src/location.cpp"
+  "directory": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/Build",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE   -g -std=c++20 -o CMakeFiles\\TownBuilder.dir\\location.cpp.obj -c C:\\Users\\Kairos\\Documents\\Nextcloud\\TownBuilder\\location.cpp",
+  "file": "C:/Users/Kairos/Documents/Nextcloud/TownBuilder/location.cpp",
+  "output": "CMakeFiles/TownBuilder.dir/location.cpp.obj"
 }
 ]
