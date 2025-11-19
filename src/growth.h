@@ -2,5 +2,6 @@
 #define GROWTH_H
 
 void applyGrowth(float capacityDebuff);
+float capacityFactor;
 
 #endif

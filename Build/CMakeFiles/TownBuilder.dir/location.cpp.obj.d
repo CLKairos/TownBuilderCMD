@@ -152,4 +152,8 @@ CMakeFiles/TownBuilder.dir/location.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:\Users\Kairos\Documents\TownBuilderCMD\src\game.h \
- C:\Users\Kairos\Documents\TownBuilderCMD\src\randomEvents.h
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\randomEvents.h \
+ C:\Users\Kairos\Documents\TownBuilderCMD\src\globals.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
+ C:/Program\ Files/JetBrains/CLion\ 2025.2.4/bin/mingw/x86_64-w64-mingw32/include/stdint.h

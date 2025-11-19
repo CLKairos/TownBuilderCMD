@@ -55,7 +55,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\Kairos\Documents\TownBuilderCMD\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Kairos\Documents\TownBuilderCMD\Build
+CMAKE_BINARY_DIR = C:\Users\Kairos\Documents\TownBuilderCMD\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TownBuilder.dir/depend.make
@@ -74,7 +74,7 @@ CMakeFiles/TownBuilder.dir/codegen:
 CMakeFiles/TownBuilder.dir/game.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/game.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/game.cpp
 CMakeFiles/TownBuilder.dir/game.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TownBuilder.dir/game.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TownBuilder.dir/game.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/game.cpp.obj -MF CMakeFiles\TownBuilder.dir\game.cpp.obj.d -o CMakeFiles\TownBuilder.dir\game.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\game.cpp
 
 CMakeFiles/TownBuilder.dir/game.cpp.i: cmake_force
@@ -88,7 +88,7 @@ CMakeFiles/TownBuilder.dir/game.cpp.s: cmake_force
 CMakeFiles/TownBuilder.dir/growth.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/growth.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/growth.cpp
 CMakeFiles/TownBuilder.dir/growth.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TownBuilder.dir/growth.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TownBuilder.dir/growth.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/growth.cpp.obj -MF CMakeFiles\TownBuilder.dir\growth.cpp.obj.d -o CMakeFiles\TownBuilder.dir\growth.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\growth.cpp
 
 CMakeFiles/TownBuilder.dir/growth.cpp.i: cmake_force
@@ -102,7 +102,7 @@ CMakeFiles/TownBuilder.dir/growth.cpp.s: cmake_force
 CMakeFiles/TownBuilder.dir/housing.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/housing.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/housing.cpp
 CMakeFiles/TownBuilder.dir/housing.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TownBuilder.dir/housing.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TownBuilder.dir/housing.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/housing.cpp.obj -MF CMakeFiles\TownBuilder.dir\housing.cpp.obj.d -o CMakeFiles\TownBuilder.dir\housing.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\housing.cpp
 
 CMakeFiles/TownBuilder.dir/housing.cpp.i: cmake_force
@@ -116,7 +116,7 @@ CMakeFiles/TownBuilder.dir/housing.cpp.s: cmake_force
 CMakeFiles/TownBuilder.dir/input.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/input.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/input.cpp
 CMakeFiles/TownBuilder.dir/input.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TownBuilder.dir/input.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TownBuilder.dir/input.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/input.cpp.obj -MF CMakeFiles\TownBuilder.dir\input.cpp.obj.d -o CMakeFiles\TownBuilder.dir\input.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\input.cpp
 
 CMakeFiles/TownBuilder.dir/input.cpp.i: cmake_force
@@ -130,7 +130,7 @@ CMakeFiles/TownBuilder.dir/input.cpp.s: cmake_force
 CMakeFiles/TownBuilder.dir/main.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/main.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/main.cpp
 CMakeFiles/TownBuilder.dir/main.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TownBuilder.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TownBuilder.dir/main.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/main.cpp.obj -MF CMakeFiles\TownBuilder.dir\main.cpp.obj.d -o CMakeFiles\TownBuilder.dir\main.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\main.cpp
 
 CMakeFiles/TownBuilder.dir/main.cpp.i: cmake_force
@@ -144,7 +144,7 @@ CMakeFiles/TownBuilder.dir/main.cpp.s: cmake_force
 CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/randomEvents.cpp
 CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj -MF CMakeFiles\TownBuilder.dir\randomEvents.cpp.obj.d -o CMakeFiles\TownBuilder.dir\randomEvents.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\randomEvents.cpp
 
 CMakeFiles/TownBuilder.dir/randomEvents.cpp.i: cmake_force
@@ -158,7 +158,7 @@ CMakeFiles/TownBuilder.dir/randomEvents.cpp.s: cmake_force
 CMakeFiles/TownBuilder.dir/save.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/save.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/save.cpp
 CMakeFiles/TownBuilder.dir/save.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TownBuilder.dir/save.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TownBuilder.dir/save.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/save.cpp.obj -MF CMakeFiles\TownBuilder.dir\save.cpp.obj.d -o CMakeFiles\TownBuilder.dir\save.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\save.cpp
 
 CMakeFiles/TownBuilder.dir/save.cpp.i: cmake_force
@@ -172,7 +172,7 @@ CMakeFiles/TownBuilder.dir/save.cpp.s: cmake_force
 CMakeFiles/TownBuilder.dir/shop.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/shop.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/shop.cpp
 CMakeFiles/TownBuilder.dir/shop.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TownBuilder.dir/shop.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TownBuilder.dir/shop.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/shop.cpp.obj -MF CMakeFiles\TownBuilder.dir\shop.cpp.obj.d -o CMakeFiles\TownBuilder.dir\shop.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\shop.cpp
 
 CMakeFiles/TownBuilder.dir/shop.cpp.i: cmake_force
@@ -186,7 +186,7 @@ CMakeFiles/TownBuilder.dir/shop.cpp.s: cmake_force
 CMakeFiles/TownBuilder.dir/location.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
 CMakeFiles/TownBuilder.dir/location.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/location.cpp
 CMakeFiles/TownBuilder.dir/location.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TownBuilder.dir/location.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TownBuilder.dir/location.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/location.cpp.obj -MF CMakeFiles\TownBuilder.dir\location.cpp.obj.d -o CMakeFiles\TownBuilder.dir\location.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\location.cpp
 
 CMakeFiles/TownBuilder.dir/location.cpp.i: cmake_force
@@ -196,6 +196,20 @@ CMakeFiles/TownBuilder.dir/location.cpp.i: cmake_force
 CMakeFiles/TownBuilder.dir/location.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TownBuilder.dir/location.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Kairos\Documents\TownBuilderCMD\src\location.cpp -o CMakeFiles\TownBuilder.dir\location.cpp.s
+
+CMakeFiles/TownBuilder.dir/loan.cpp.obj: CMakeFiles/TownBuilder.dir/flags.make
+CMakeFiles/TownBuilder.dir/loan.cpp.obj: C:/Users/Kairos/Documents/TownBuilderCMD/src/loan.cpp
+CMakeFiles/TownBuilder.dir/loan.cpp.obj: CMakeFiles/TownBuilder.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TownBuilder.dir/loan.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TownBuilder.dir/loan.cpp.obj -MF CMakeFiles\TownBuilder.dir\loan.cpp.obj.d -o CMakeFiles\TownBuilder.dir\loan.cpp.obj -c C:\Users\Kairos\Documents\TownBuilderCMD\src\loan.cpp
+
+CMakeFiles/TownBuilder.dir/loan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TownBuilder.dir/loan.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kairos\Documents\TownBuilderCMD\src\loan.cpp > CMakeFiles\TownBuilder.dir\loan.cpp.i
+
+CMakeFiles/TownBuilder.dir/loan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TownBuilder.dir/loan.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Kairos\Documents\TownBuilderCMD\src\loan.cpp -o CMakeFiles\TownBuilder.dir\loan.cpp.s
 
 # Object files for target TownBuilder
 TownBuilder_OBJECTS = \
@@ -207,7 +221,8 @@ TownBuilder_OBJECTS = \
 "CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj" \
 "CMakeFiles/TownBuilder.dir/save.cpp.obj" \
 "CMakeFiles/TownBuilder.dir/shop.cpp.obj" \
-"CMakeFiles/TownBuilder.dir/location.cpp.obj"
+"CMakeFiles/TownBuilder.dir/location.cpp.obj" \
+"CMakeFiles/TownBuilder.dir/loan.cpp.obj"
 
 # External object files for target TownBuilder
 TownBuilder_EXTERNAL_OBJECTS =
@@ -221,11 +236,12 @@ bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj
 bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/save.cpp.obj
 bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/shop.cpp.obj
 bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/location.cpp.obj
+bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/loan.cpp.obj
 bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/build.make
 bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/linkLibs.rsp
 bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/objects1.rsp
 bin/TownBuilder.exe: CMakeFiles/TownBuilder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin\TownBuilder.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable bin\TownBuilder.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TownBuilder.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -237,6 +253,6 @@ CMakeFiles/TownBuilder.dir/clean:
 .PHONY : CMakeFiles/TownBuilder.dir/clean
 
 CMakeFiles/TownBuilder.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Kairos\Documents\TownBuilderCMD\src C:\Users\Kairos\Documents\TownBuilderCMD\src C:\Users\Kairos\Documents\TownBuilderCMD\Build C:\Users\Kairos\Documents\TownBuilderCMD\Build C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles\TownBuilder.dir\DependInfo.cmake "--color=$(COLOR)" TownBuilder
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Kairos\Documents\TownBuilderCMD\src C:\Users\Kairos\Documents\TownBuilderCMD\src C:\Users\Kairos\Documents\TownBuilderCMD\build C:\Users\Kairos\Documents\TownBuilderCMD\build C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles\TownBuilder.dir\DependInfo.cmake "--color=$(COLOR)" TownBuilder
 .PHONY : CMakeFiles/TownBuilder.dir/depend
 

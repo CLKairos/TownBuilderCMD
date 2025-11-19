@@ -17,4 +17,5 @@ add_executable(TownBuilder
         randomEvents.cpp
         save.cpp
         shop.cpp
-        location.cpp)
+        location.cpp
+        loan.cpp)

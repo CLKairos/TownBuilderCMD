@@ -1,6 +1,7 @@
 #include "location.h"
 #include "game.h"
 #include "randomEvents.h"
+#include "globals.h"
 #include <iostream>
 
 void selectLocation() {

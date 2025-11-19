@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Kairos/Documents/TownBuilderCMD/src/growth.cpp" "CMakeFiles/TownBuilder.dir/growth.cpp.obj" "gcc" "CMakeFiles/TownBuilder.dir/growth.cpp.obj.d"
   "C:/Users/Kairos/Documents/TownBuilderCMD/src/housing.cpp" "CMakeFiles/TownBuilder.dir/housing.cpp.obj" "gcc" "CMakeFiles/TownBuilder.dir/housing.cpp.obj.d"
   "C:/Users/Kairos/Documents/TownBuilderCMD/src/input.cpp" "CMakeFiles/TownBuilder.dir/input.cpp.obj" "gcc" "CMakeFiles/TownBuilder.dir/input.cpp.obj.d"
+  "C:/Users/Kairos/Documents/TownBuilderCMD/src/loan.cpp" "CMakeFiles/TownBuilder.dir/loan.cpp.obj" "gcc" "CMakeFiles/TownBuilder.dir/loan.cpp.obj.d"
   "C:/Users/Kairos/Documents/TownBuilderCMD/src/location.cpp" "CMakeFiles/TownBuilder.dir/location.cpp.obj" "gcc" "CMakeFiles/TownBuilder.dir/location.cpp.obj.d"
   "C:/Users/Kairos/Documents/TownBuilderCMD/src/main.cpp" "CMakeFiles/TownBuilder.dir/main.cpp.obj" "gcc" "CMakeFiles/TownBuilder.dir/main.cpp.obj.d"
   "C:/Users/Kairos/Documents/TownBuilderCMD/src/randomEvents.cpp" "CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj" "gcc" "CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj.d"

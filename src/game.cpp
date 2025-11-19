@@ -1,4 +1,10 @@
+#include <cstdlib>
+#include <iostream>
+#include <limits>
+#include <algorithm>
+#include <cctype>
 #include "globals.h"
+#include "game.h"
 #include "reputation.h"
 #include "location.h"
 #include "shop.h"
@@ -6,19 +12,24 @@
 #include "input.h"
 #include "growth.h"
 #include "randomEvents.h"
-#include "game.h"
-#include <cstdlib>
-#include <iostream>
-using namespace std;
+#include "loan.h"
 
-//game loop logic
+// Forward declaration
+void clearInputBuffer();
+
+// Helper function to clear input buffer
+void clearInputBuffer()
+{
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+}
 
 void gameLoop()
 {
     bool running = false;
-    string input;
-    float capacityDebuff = 1.0f;
+    std::string input;
     int disasterCooldown = 0;
+    float capacityDebuff = 1.0f; // Initialize as float to match function signature
 
     if (setLocation == ""){
         selectLocation();
@@ -29,13 +40,10 @@ void gameLoop()
     while (running)
     {
         applyGrowth(capacityDebuff);
-        moneyAmount += (rand() % populationAmount * 2) + 1;
-        calcReputation();
 
-        system("PAUSE"); 
-        system("cls"); 
-
-        cout << "\nTownBuilderCMD\n"
+        if (maxLoan <= 100)
+        {
+            std::cout << "\nTownBuilderCMD\n"
              << "Money: $" << moneyAmount << "\n"
              << "Population: " << populationAmount << "\n"
              << "Houses: " << housingAmount << " (Level " << housingLevel << ")\n"
@@ -44,10 +52,33 @@ void gameLoop()
              << "Transportation: " << transportationLevel << "\n"
              << "Technology: " << technologyLevel << "\n"
              << "Reputation: " << reputationLevel << "\n"
-             << "Locaiton: "<< setLocation << "\n\n"
+             << "Location: "<< setLocation << "\n\n"
              << "Options: shop (sh), wait (w), save (sa), exit (e)\n> ";
+        } else {
+            std::cout << "\nTownBuilderCMD\n"
+             << "Money: $" << moneyAmount << "\n"
+             << "Population: " << populationAmount << "\n"
+             << "Houses: " << housingAmount << " (Level " << housingLevel << ")\n"
+             << "Education: " << educationLevel << "\n"
+             << "Military: " << militaryLevel << "\n"
+             << "Transportation: " << transportationLevel << "\n"
+             << "Technology: " << technologyLevel << "\n"
+             << "Reputation: " << reputationLevel << "\n"
+             << "Location: "<< setLocation << "\n\n"
+             << "Options: shop (sh), take loan (tl), check loan (cl), pay loan (pl), wait (w), save (sa), exit (e)\n> ";
+        }
 
-        cin >> input;
+        if (!(std::cin >> input))
+        {
+            clearInputBuffer();
+            std::cout << "Invalid input! Please try again.\n";
+            continue;
+        }
+
+        // Convert input to lowercase for case-insensitive comparison
+        for (char &c : input) {
+            c = std::tolower(static_cast<unsigned char>(c));
+        }
 
         if (input == "exit" || input == "e")
         {
@@ -62,24 +93,48 @@ void gameLoop()
         {
             shop();
         }
+        else if (input == "take loan" || input == "tl")
+        {
+            takeOutLoan();
+        }
+        else if (input == "check loan" || input == "cl")
+        {
+            viewLoanStatus();
+        }
+        else if (input == "pay loan" || input == "pl")
+        {
+            payLoan();
+        }
         else if (input == "wait" || input == "w")
         {
-            cout << "How many turns would you like to wait? (max 10)\n> ";
+            std::cout << "How many turns would you like to wait? (max 10)\n> ";
             int turns = getIntInput();
-            turns = min(turns, 10);
+            
+            if (turns <= 0) {
+                std::cout << "Invalid number of turns!\n";
+                continue;
+            }
+            
+            turns = std::min(turns, 10);
 
             for (int i = 0; i < turns; i++)
             {
-                cout << "Time passes...\n";
+                std::cout << "Time passes... (Turn " << (i + 1) << "/" << turns << ")\n";
                 if (disasterCooldown > 0) disasterCooldown--;
                 handleRandomEvents(disasterCooldown, capacityDebuff);
                 applyGrowth(capacityDebuff);
+                loanRepaymentLogic();
                 moneyAmount += populationAmount * 2;
             }
+            
+            std::cout << "\nWaiting complete! " << turns << " turn(s) have passed.\n";
         }
         else
         {
-            cout << "Invalid option!\n";
+            std::cout << "Invalid option! Please choose from the available commands.\n";
         }
+        
+        // Clear any remaining input
+        clearInputBuffer();
     }
 }

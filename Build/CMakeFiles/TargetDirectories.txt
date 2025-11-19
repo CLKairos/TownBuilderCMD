@@ -1,3 +1,3 @@
-C:/Users/Kairos/Documents/TownBuilderCMD/Build/CMakeFiles/TownBuilder.dir
-C:/Users/Kairos/Documents/TownBuilderCMD/Build/CMakeFiles/edit_cache.dir
-C:/Users/Kairos/Documents/TownBuilderCMD/Build/CMakeFiles/rebuild_cache.dir
+C:/Users/Kairos/Documents/TownBuilderCMD/build/CMakeFiles/TownBuilder.dir
+C:/Users/Kairos/Documents/TownBuilderCMD/build/CMakeFiles/edit_cache.dir
+C:/Users/Kairos/Documents/TownBuilderCMD/build/CMakeFiles/rebuild_cache.dir

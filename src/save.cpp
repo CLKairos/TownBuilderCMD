@@ -5,6 +5,7 @@
 #include "globals.h"
 #include "housing.h"
 #include "location.h"
+#include "loan.h"
 
 using namespace std;
 
@@ -26,7 +27,9 @@ void saveGame()
              << educationLevel << ","
              << transportationLevel << ","
              << technologyLevel << ","
-             << setLocation;
+             << setLocation << ","
+             << currentLoanAmount << ","
+             << daysToRepayLoan;
 
     saveFile.close();
     cout << "Game saved successfully!\n";

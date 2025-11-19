@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TownBuilder.dir/housing.cpp.obj.d"
   "CMakeFiles/TownBuilder.dir/input.cpp.obj"
   "CMakeFiles/TownBuilder.dir/input.cpp.obj.d"
+  "CMakeFiles/TownBuilder.dir/loan.cpp.obj"
+  "CMakeFiles/TownBuilder.dir/loan.cpp.obj.d"
   "CMakeFiles/TownBuilder.dir/location.cpp.obj"
   "CMakeFiles/TownBuilder.dir/location.cpp.obj.d"
   "CMakeFiles/TownBuilder.dir/main.cpp.obj"

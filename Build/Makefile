@@ -59,7 +59,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:\Users\Kairos\Documents\TownBuilderCMD\src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Kairos\Documents\TownBuilderCMD\Build
+CMAKE_BINARY_DIR = C:\Users\Kairos\Documents\TownBuilderCMD\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,16 +86,16 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles C:\Users\Kairos\Documents\TownBuilderCMD\Build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles C:\Users\Kairos\Documents\TownBuilderCMD\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles C:\Users\Kairos\Documents\TownBuilderCMD\Build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles C:\Users\Kairos\Documents\TownBuilderCMD\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\Build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
@@ -230,6 +230,30 @@ input.s: input.cpp.s
 input.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TownBuilder.dir\build.make CMakeFiles/TownBuilder.dir/input.cpp.s
 .PHONY : input.cpp.s
+
+loan.obj: loan.cpp.obj
+.PHONY : loan.obj
+
+# target to build an object file
+loan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TownBuilder.dir\build.make CMakeFiles/TownBuilder.dir/loan.cpp.obj
+.PHONY : loan.cpp.obj
+
+loan.i: loan.cpp.i
+.PHONY : loan.i
+
+# target to preprocess a source file
+loan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TownBuilder.dir\build.make CMakeFiles/TownBuilder.dir/loan.cpp.i
+.PHONY : loan.cpp.i
+
+loan.s: loan.cpp.s
+.PHONY : loan.s
+
+# target to generate assembly for a file
+loan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TownBuilder.dir\build.make CMakeFiles/TownBuilder.dir/loan.cpp.s
+.PHONY : loan.cpp.s
 
 location.obj: location.cpp.obj
 .PHONY : location.obj
@@ -373,6 +397,9 @@ help:
 	@echo ... input.obj
 	@echo ... input.i
 	@echo ... input.s
+	@echo ... loan.obj
+	@echo ... loan.i
+	@echo ... loan.s
 	@echo ... location.obj
 	@echo ... location.i
 	@echo ... location.s
