@@ -26,7 +26,7 @@ void payLoan(){
     }
     viewLoanStatus();
     std::cout << "How much would you like to pay off?\n";
-    __int64_t payAmount;
+    __int64 payAmount;
     std::cin >> payAmount;
     if (payAmount > static_cast<int>(moneyAmount)){
         std::cout << "You do not have enough money!\n";

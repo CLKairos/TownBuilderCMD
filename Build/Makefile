@@ -91,13 +91,6 @@ all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles 0
 .PHONY : all
 
-# The main codegen target
-codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles C:\Users\Kairos\Documents\TownBuilderCMD\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kairos\Documents\TownBuilderCMD\build\CMakeFiles 0
-.PHONY : codegen
-
 # The main clean target
 clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
@@ -327,6 +320,30 @@ randomEvents.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TownBuilder.dir\build.make CMakeFiles/TownBuilder.dir/randomEvents.cpp.s
 .PHONY : randomEvents.cpp.s
 
+reputation.obj: reputation.cpp.obj
+.PHONY : reputation.obj
+
+# target to build an object file
+reputation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TownBuilder.dir\build.make CMakeFiles/TownBuilder.dir/reputation.cpp.obj
+.PHONY : reputation.cpp.obj
+
+reputation.i: reputation.cpp.i
+.PHONY : reputation.i
+
+# target to preprocess a source file
+reputation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TownBuilder.dir\build.make CMakeFiles/TownBuilder.dir/reputation.cpp.i
+.PHONY : reputation.cpp.i
+
+reputation.s: reputation.cpp.s
+.PHONY : reputation.s
+
+# target to generate assembly for a file
+reputation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TownBuilder.dir\build.make CMakeFiles/TownBuilder.dir/reputation.cpp.s
+.PHONY : reputation.cpp.s
+
 save.obj: save.cpp.obj
 .PHONY : save.obj
 
@@ -381,7 +398,6 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TownBuilder
@@ -409,6 +425,9 @@ help:
 	@echo ... randomEvents.obj
 	@echo ... randomEvents.i
 	@echo ... randomEvents.s
+	@echo ... reputation.obj
+	@echo ... reputation.i
+	@echo ... reputation.s
 	@echo ... save.obj
 	@echo ... save.i
 	@echo ... save.s

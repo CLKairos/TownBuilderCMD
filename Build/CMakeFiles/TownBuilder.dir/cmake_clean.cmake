@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/TownBuilder.dir/main.cpp.obj.d"
   "CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj"
   "CMakeFiles/TownBuilder.dir/randomEvents.cpp.obj.d"
+  "CMakeFiles/TownBuilder.dir/reputation.cpp.obj"
+  "CMakeFiles/TownBuilder.dir/reputation.cpp.obj.d"
   "CMakeFiles/TownBuilder.dir/save.cpp.obj"
   "CMakeFiles/TownBuilder.dir/save.cpp.obj.d"
   "CMakeFiles/TownBuilder.dir/shop.cpp.obj"
