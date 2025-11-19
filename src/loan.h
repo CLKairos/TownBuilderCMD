@@ -10,6 +10,6 @@ void viewLoanStatus();
 void loanRepaymentLogic();
 
 inline int64_t currentLoanAmount = 0;
-inline int maxLoan = ((static_cast<int>(populationAmount)) * educationLevel);;
+inline int maxLoan = ((static_cast<int>(populationAmount)) * educationLevel);
 
 #endif // LOAN_H

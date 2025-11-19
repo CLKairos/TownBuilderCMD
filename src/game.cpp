@@ -40,7 +40,9 @@ void gameLoop()
     while (running)
     {
         applyGrowth(capacityDebuff);
-
+        calcReputation();
+        maxLoan = ((static_cast<int>(populationAmount)) * educationLevel);
+        
         if (maxLoan <= 100)
         {
             std::cout << "\nTownBuilderCMD\n"
@@ -123,6 +125,7 @@ void gameLoop()
                 if (disasterCooldown > 0) disasterCooldown--;
                 handleRandomEvents(disasterCooldown, capacityDebuff);
                 applyGrowth(capacityDebuff);
+                calcReputation();
                 loanRepaymentLogic();
                 moneyAmount += populationAmount * 2;
             }

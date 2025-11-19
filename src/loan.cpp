@@ -26,18 +26,30 @@ void payLoan(){
     }
     viewLoanStatus();
     std::cout << "How much would you like to pay off?\n";
-    __int64 payAmount;
+    __int64_t payAmount;
     std::cin >> payAmount;
     if (payAmount > static_cast<int>(moneyAmount)){
         std::cout << "You do not have enough money!\n";
         return;
     }
-    moneyAmount -= payAmount;
-    currentLoanAmount -= payAmount;
+    if (payAmount > currentLoanAmount){
+        moneyAmount -= currentLoanAmount;
+        currentLoanAmount = 0;
+        std::cout << "You paid too much! Fortunately the loan sharks gave you back the excess.";
+        daysToRepayLoan = 0;
+    } else {
+        moneyAmount -= payAmount;
+        currentLoanAmount -= payAmount;
+        viewLoanStatus();
+        daysToRepayLoan = 0;
+    }
 }
 
 void viewLoanStatus(){
-    std::cout << "You currently owe $" << currentLoanAmount <<" in loans. Which is due in " << daysToRepayLoan << " Days \n"; // Placeholder for actual loan tracking
+    std::cout << "You currently owe $" << currentLoanAmount <<" in loans.\n"; 
+    if (currentLoanAmount > 0){
+        std::cout << " Which is due in " << daysToRepayLoan << " Day(s) \n";
+    }
 }
 
 void loanRepaymentLogic(){
@@ -48,7 +60,7 @@ void loanRepaymentLogic(){
         daysToRepayLoan--;
     }
 
-    if (daysToRepayLoan <= 0){
+    if (daysToRepayLoan <= 0 && currentLoanAmount > 0){
         std::cout << "You have failed to repay your loan on time! The loan sharks took their money back and then some...\n";
         int64_t penalty = static_cast<int64_t>(currentLoanAmount * 1.50);
         moneyAmount -= penalty;

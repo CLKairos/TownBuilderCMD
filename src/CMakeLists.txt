@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.0)
 project(TownBuilder)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
@@ -18,4 +18,5 @@ add_executable(TownBuilder
         save.cpp
         shop.cpp
         location.cpp
-        loan.cpp)
+        loan.cpp
+        reputation.cpp)
